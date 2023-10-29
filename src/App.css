@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after { margin: 0; padding: 0; box-sizing: inherit; }
+
+.d-flex {
+  display: flex;
+}
+
+.btn {
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #09ce09;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #089f08;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.aic {
+  align-items: center;
+}
+
+.mb-2 {
+  margin-bottom: 0.25rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.me-3 {
+  margin-right: 1rem;
+}
+
+.ms-2 {
+  margin-left: 0.25rem !important;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: mediumpurple;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.home-inputs {
+  display: flex;
+  max-width: 350px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.home-inputs label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.home-inputs input {
+  border-radius: 4px;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1rem;
+}
+
+
+.home-inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-inputs .home-inputs-container .input-error {
+  margin-top: 5px;
+  color: #ff9b9b;
+}
+
+table {
+  padding: 0;
+  border-collapse: collapse;
+  margin: 3rem 0 0;
+}
+
+td {
+  min-width: 92px;
+  border: 1px solid #000;
+  padding: 0.5rem;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.td-value {
+  cursor: pointer;
+}
+
+.td-value:hover {
+  background-color: #6e45c1;
+}
+
+.table-container {
+  max-width: calc(100% - 60px);
+  max-height: calc(100vh - 300px);
+}
+
+.radio-box {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+  width: fit-content;
+}
+.radio-box input {
+  cursor: pointer;
+}
+.radio-box label {
+  cursor: pointer;
+}
+
+.td-value.nearest {
+  background-color: #a40909;
+}
+
+
+
+.td-remove {
+  cursor: pointer;
+}
+.td-remove:hover {
+  background-color: #a40909;
+}
+
+.td-add {
+  cursor: pointer;
+}
+.td-add:hover {
+  background-color: #06b306;
+}
